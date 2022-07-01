@@ -5,3 +5,6 @@ Diese Version ist nun über 1 Jahr alt und besteht im Grundsystem aus dem Code v
 Die neue Botversion werde ich zum aktuellen Zeitpunkt nicht veröffentlichen, die ist nicht fertig und ich beinhaltet einige Sachen die ich (noch) nicht veröffentlichen will.
 
 Viel Spaß beim rumstöbern und rumcoden ;).
+
+
+Ah ja bevor wer fragt die Naming Convention ist nicht von mir die kommt von Kai ich benutze selber Camel Case, so ist auch die neue Bot Version geschrieben!
