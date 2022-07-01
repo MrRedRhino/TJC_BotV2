@@ -1,0 +1,33 @@
+{
+  "name": "tjc_bot",
+  "version": "1.0.0",
+  "description": "Der neue Discord Bot für das größte Redstone-Netzwerk Deutschlands",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TJC-Team/TJC_BOT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TJC-Team/TJC_BOT/issues"
+  },
+  "homepage": "https://panel.lubalp.eu",
+  "dependencies": {
+    "anchorme": "^2.1.2",
+    "bad-words": "^3.0.4",
+    "colors": "^1.4.0",
+    "discord.js": "^13.8.1",
+    "dns2": "^2.0.1",
+    "fs": "0.0.1-security",
+    "moment": "^2.29.1",
+    "mysql2": "^2.2.5",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "string-similarity": "^4.0.4",
+    "treeify": "^1.1.0"
+  }
+}

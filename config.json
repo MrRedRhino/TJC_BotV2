@@ -1,0 +1,41 @@
+{
+    "botconfig": {
+        "token": "",
+        "mainserver": "251008837983797259"
+    },
+    "serverdata": {
+        "dmsupportcategory": "799689953394819103",
+        "botlogchannel": "308257067716706305",
+        "projekterole": "851200780723027989",
+        "niceone": "416631938833711111",
+        "liveStream": {
+      		"voiceChat": "703298739602718813",
+      		"textChat": "703298655666569316"
+    	}
+    },
+    "automod": {
+        "muteOnSpam": false,
+        "deleteSpamMessages": false
+    },
+    "mysqldata": {
+        "connectionLimit": "",
+        "host": "",
+        "user": "",
+        "password": "",
+        "database": ""
+    },
+    "botspamsystem": {
+        "userToTrigger": 4,
+        "timeout": 20
+    },
+    "webhook": {
+        "error": "https://discord.com/api/webhooks/",
+        "logs": "https://discord.com/api/webhooks/"
+    },
+    "colors": {
+        "red": 16726843,
+        "orange": 16748859,
+        "yellow": 16774971,
+        "green": 5242148
+    }
+}
