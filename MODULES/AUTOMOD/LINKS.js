@@ -95,7 +95,9 @@ AUTOMOD_LINKS.go = async function(global, client, message, SQL) {
                     if (parsedLink == "bit.ly") allowed = false;
 
                     if (parsedLink.match(/^\d/)) {
-                        if (parsedLink.startsWith("192.168.") || parsedLink.startsWith("10.") || parsedLink.startsWith("172.18.")) {
+                        if (parsedLink.startsWith("192.168.") || parsedLink.startsWith("10.")) {
+                            allowed = true;
+                        } else if (parsedLink.startsWith("172.") && parsedLink.split(".")[1] >= 16 && parsedLink.split(".")[1] <= 31) {
                             allowed = true;
                         } else {
                            if (response.questions != null) {
