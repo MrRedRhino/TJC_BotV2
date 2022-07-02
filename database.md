@@ -38,3 +38,12 @@ Die Überschriften sind die Namen der Tabellen, in Klammern der Datentyp (? > ge
 |---------------|
 |               |
 
+# usedLinks
+| link (text ?) | count (int ?) |
+|---------------|---------------|
+|               |               |
+
+# usernotes
+| user (bigint ?) | moderator (bigint ?) | note (text ?) |     |     |
+|-----------------|----------------------|---------------|-----|-----|
+|                 |                      |               |     |     |
