@@ -9,5 +9,5 @@ Viel Spaß beim rumstöbern und rumcoden ;).
 
 Ah ja, bevor wer fragt, die Naming Convention ist nicht von mir, die kommt von Kai, ich benutze selbst Camel Case, so ist auch die neue Bot Version geschrieben!
 
-Alle die interesse haben die neue BotVersion zu testen: https://discord.gg/cYfG4DUfaj
+Alle die interesse haben die neue BotVersion zu testen: https://discord.gg/cYfG4DUfaj \
 Wer scheiße baut fliegt!
