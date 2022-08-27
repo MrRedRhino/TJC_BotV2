@@ -1,34 +1,15 @@
 Die Überschriften sind die Namen der Tabellen, in Klammern der Datentyp (? > geraten)
 
-# serverconfig
-
-| logchannel (bigint)   |  welcomerole (bigint)  | serverlog (longtext) | modlog (longtext)  |
-|-----------------------|------------------------|----------------------|--------------------|
-|                       |                        |                      |                    |
-
-# userroles
-
-| userid (bigint)   | roleid (bigint)   |
-|-------------------|-------------------|
-|                   |                   |
-
-# noniceones
-
-| id (bigint)   | serverid (bigint)   | timestamp (bigint)   |
-|---------------|---------------------|----------------------|
-|               |                     |                      |
-
-# mutes
-
-| intern (int)    | id (text)     | serverid (bigint)   | bereich | duration | timestamp |
-|-----------------|---------------|---------------------|---------|----------|-----------|
-|                 |               |                     |         |          |           |
-
 # blacklist
+| word (text) |
+|-------------|
+|             |
 
-| word (text)   |
-|---------------|
-|               |
+# botwelle
+
+| userid (bigint)   | timestamp (bigint) |
+|-------------------|--------------------|
+|                   |                    |
 
 # cases
 
@@ -36,26 +17,45 @@ Die Überschriften sind die Namen der Tabellen, in Klammern der Datentyp (? > ge
 |-----------------|-----------------|---------------------|-------------|-------------|---------------|----------------------|----------------|---------------------|-----------------------|
 |                 |                 |                     |             |             |               |                      |                |                     |                       |
 
-# whitelist
+# mutes
 
-| link (text)   |
-|---------------|
-|               |
+| intern (int)    | id (text)     | serverid (bigint)   | bereich | duration | timestamp |
+|-----------------|---------------|---------------------|---------|----------|-----------|
+|                 |               |                     |         |          |           |
+
+# noniceones
+
+| id (bigint)   | serverid (bigint)   | timestamp (bigint)   |
+|---------------|---------------------|----------------------|
+|               |                     |                      |
+
+# serverconfig
+
+| logchannel (bigint)   |  welcomerole (bigint)  | serverlog (longtext) | modlog (longtext)  |
+|-----------------------|------------------------|----------------------|--------------------|
+|                       |                        |                      |                    |
 
 # usedLinks
 
-| link (text ?) | count (int ?) |
+| link (text)   | count (bigint)|
 |---------------|---------------|
 |               |               |
 
 # usernotes
 
-| user (bigint ?) | moderator (bigint ?) | note (text ?) |     |     |
-|-----------------|----------------------|---------------|-----|-----|
-|                 |                      |               |     |     |
+| user (bigint)   | moderator (bigint)   | note (text)   | id (int)   |
+|-----------------|----------------------|---------------|------------|
+|                 |                      |               |            |
 
-# botwelle
+# userroles
 
-| userid (bigint ?) | timestamp (time ?) |     |     |
-|-------------------|--------------------|-----|-----|
-|                   |                    |     |     |
+| userid (bigint)   | roleid (bigint)   |
+|-------------------|-------------------|
+|                   |                   |
+
+
+# whitelist
+
+| link (text)   |
+|---------------|
+|               |
